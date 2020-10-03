@@ -24,5 +24,10 @@
   "homepage": "https://github.com/alisonsm92/js-complexity-metrics#readme",
   "dependencies": {
     "es6-plato": "^1.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
