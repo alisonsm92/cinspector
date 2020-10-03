@@ -1,0 +1,25 @@
+{
+  "name": "js-complexity-metrics",
+  "version": "1.0.0",
+  "description": "Visualize JavaScript source complexity metrics with es6-plato on terminal. Cyclomatic complexity, maintainability score, SLOC and eslint problems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonsm92/js-complexity-metrics.git"
+  },
+  "keywords": [
+    "cyclomatic",
+    "complexity",
+    "report",
+    "metrics"
+  ],
+  "author": "alisonsm92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonsm92/js-complexity-metrics/issues"
+  },
+  "homepage": "https://github.com/alisonsm92/js-complexity-metrics#readme"
+}
