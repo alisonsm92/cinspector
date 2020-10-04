@@ -1,5 +1,6 @@
 module.exports = {
   FILE_PATTERN: '/**/*.js',
-  DEFAULT_OUTPUT_DIR: '/reports/code-complexity',
-  DEFAULT_ESLINTRC_FILE: '/.eslintrc.js',
+  DEFAULT_TITLE: 'complexity-inspector',
+  DEFAULT_OUTPUT_DIR: '/reports',
+  DEFAULT_HEALTHY_SCORE: 60,
 };
