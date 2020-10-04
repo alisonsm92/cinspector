@@ -1,5 +1,5 @@
 /**
- * @typedef {import('../lib/main').Args} Args
+ * @typedef {import('../lib/inspector').Args} Args
  */
 
 /**
