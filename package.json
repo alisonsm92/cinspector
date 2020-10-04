@@ -1,18 +1,18 @@
 {
-  "name": "complexity-inspector",
+  "name": "cinspector",
   "version": "1.0.0",
   "description": "Visualize JavaScript source complexity metrics with es6-plato on terminal. Cyclomatic complexity, maintainability score, SLOC and eslint problems.",
   "bin": {
-    "complexity-inspector": "./bin/complexity-inspector.js"
+    "cinspector": "./bin/cinspector.js"
   },
   "scripts": {
     "test": "jest",
     "lint": "./node_modules/.bin/eslint .",
-    "complexity-metrics": "node ./bin/complexity-inspector.js lib"
+    "cinspector": "node ./bin/cinspector.js lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alisonsm92/complexity-inspector.git"
+    "url": "git+https://github.com/alisonsm92/cinspector.git"
   },
   "keywords": [
     "cyclomatic",
@@ -23,9 +23,9 @@
   "author": "alisonsm92",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alisonsm92/complexity-inspector/issues"
+    "url": "https://github.com/alisonsm92/cinspector/issues"
   },
-  "homepage": "https://github.com/alisonsm92/complexity-inspector#readme",
+  "homepage": "https://github.com/alisonsm92/cinspector#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "es6-plato": "^1.2.3",

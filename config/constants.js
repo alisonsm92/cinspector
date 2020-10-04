@@ -1,6 +1,6 @@
 module.exports = {
   FILE_PATTERN: '/**/*.js',
-  DEFAULT_TITLE: 'complexity-inspector',
+  DEFAULT_TITLE: 'CInspector',
   DEFAULT_OUTPUT_DIR: 'reports',
   DEFAULT_HEALTHY_INDEX: 60,
   DEFAULT_HEALTHY_SLOC: 300,
