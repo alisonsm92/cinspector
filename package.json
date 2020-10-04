@@ -2,9 +2,11 @@
   "name": "complexity-inspector",
   "version": "1.0.0",
   "description": "Visualize JavaScript source complexity metrics with es6-plato on terminal. Cyclomatic complexity, maintainability score, SLOC and eslint problems.",
-  "main": "index.js",
+  "bin": { "complexity-inspector" : "./bin/complexity-inspector.js" },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint .",
+    "complexity-metrics": "node ./bin/complexity-inspector.js lib"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "eslint": "^7.10.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.0",
     "jest": "^26.4.2"
   }
 }
