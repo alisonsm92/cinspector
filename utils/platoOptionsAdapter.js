@@ -7,12 +7,13 @@
  * @param {Args} args CLI args
  */
 const adapt = (args) => ({
+  src: args._[0],
   dir: args.dir,
   recurse: args.recurse,
   exclude: args.exclude,
   title: args.title,
   quiet: args.quiet,
-  noempty: args.skip,
+  noempty: !args.empty,
   eslint: args.eslint,
   jshint: args.jshint,
 });
