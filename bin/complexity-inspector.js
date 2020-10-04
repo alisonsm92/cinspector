@@ -1,6 +1,10 @@
 const cli = require('../lib/cli');
 const { inspect } = require('../lib/inspector');
 
-const args = cli.getParsedArgs();
+async function execute() {
+  const args = cli.getParsedArgs();
 
-inspect(args);
+  await inspect(args);
+}
+
+execute();
