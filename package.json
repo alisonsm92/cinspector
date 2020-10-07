@@ -30,6 +30,7 @@
   "homepage": "https://github.com/alisonsm92/cinspector#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "cli-table": "^0.3.1",
     "es6-plato": "^1.2.3",
     "ora": "^5.1.0",
     "yargs": "^16.0.3"
