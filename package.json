@@ -31,6 +31,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "es6-plato": "^1.2.3",
+    "ora": "^5.1.0",
     "yargs": "^16.0.3"
   },
   "devDependencies": {
