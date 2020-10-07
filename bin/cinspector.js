@@ -1,12 +1,11 @@
 const cli = require('../lib/cli');
 const { inspect } = require('../lib/inspector');
-const { generateSummary, writeTitle } = require('../lib/consoleOutput');
+const { generateSummary } = require('../lib/consoleOutput');
 
 async function execute() {
-  writeTitle();
   const args = cli.getParsedArgs();
-  const { options, overview, reports } = await inspect(args);
-  generateSummary({ options, overview, reports });
+  const { options, overview } = await inspect(args);
+  generateSummary({ options, overview });
 }
 
 execute();
