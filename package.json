@@ -10,7 +10,7 @@
     "test:coverage": "jest --collect-coverage",
     "test:ci": "jest --collect-coverage --ci --silent",
     "lint": "./node_modules/.bin/eslint .",
-    "cinspector": "node ./bin/cinspector.js lib"
+    "cinspector": "node ./bin/cinspector.js -r -l .eslintrc.json lib"
   },
   "repository": {
     "type": "git",
